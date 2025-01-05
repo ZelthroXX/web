@@ -134,10 +134,10 @@ footer {
     margin-left: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768%) {
     header {
         flex-direction: column;
-        padding: 10px;
+        padding: 10%;
     }
 
     nav {
@@ -149,9 +149,9 @@ footer {
         background-color: #220e03;
         color: #D4B47B;
         border: none;
-        padding: 10px;
+        padding: 10%;
         cursor: pointer;
-        border-radius: 5px;
+        border-radius: 5%;
     }
 
     .menu-toggle.active + nav {
@@ -165,25 +165,25 @@ footer {
     }
 
     .text-box {
-        padding: 10px;
+        padding: 10%;
     }
 
     .character {
         position: static;
-        max-width: 100px;
-        margin: 20px auto;
+        max-width: 100%;
+        margin: 20% auto;
         display: block;
     }
 
     .bird {
         position: static;
-        max-width: 80px;
-        margin: 20px auto;
+        max-width: 80%;
+        margin: 20% auto;
         display: block;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480%) {
     .hero h1 {
         font-size: 1.2rem;
     }
@@ -197,10 +197,10 @@ footer {
     }
 
     .character {
-        max-width: 80px;
+        max-width: 80%;
     }
 
     .bird {
-        max-width: 60px;
+        max-width: 60%;
     }
 }
